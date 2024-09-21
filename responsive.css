@@ -162,7 +162,7 @@
     }
     .simple-para-main-box-right {
         width: 100%;
-        padding: 0px 20px;
+        padding: 0px 0px;
     }
     .affortable-dessiration-girl-image {
         position: absolute;
@@ -281,7 +281,6 @@
     }
     .pricing-main-box-right {
         width: 100%;
-        /* border: 2px solid rgb(27, 1, 53); */
         margin-top: 0px !important;
         margin-left: 0px !important;
     }
@@ -293,13 +292,10 @@
         border-radius: 0px;
         box-shadow: 4px 4px 10px black;
         background: white;
-        /* display: flex; */
         overflow: hidden;
         margin-left: -0px;
         padding-top: 15px;
         padding-bottom: 15px;
-        /* flex-wrap: wrap; */
-        /* justify-content: center; */
         gap: 20px;
         overflow-x: scroll !important;
     }
@@ -682,15 +678,47 @@
         }
         .hero-main-box-right-sub-box {
             width: 350px;
-            /* border: 2px solid orangered; */
-            /* background: #262525; */
             padding: 20px 10px;
             border-radius: 15px;
-            /* opacity: 79%; */
             background-image: url("Image/hero-section-image/calculator-bg.png");
             background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
             margin-left: 0px !important;
+        }
+        .wrapperes-sub-box-left {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .wrapperes-sub-box-right {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: start;
+            flex-direction: column;
+            align-items: center;
+        }
+        .nums {
+            text-align: center;
+            color: white;
+            font-size: 50px !important;
+            margin-bottom: 10px;
+        }
+        .counter-text {
+            text-align: center;
+            color: white;
+            font-weight: 200 !important;
+            font-size: 30px;
+        }
+        .wrapperes-sub-box i {
+            color: #18f98f;
+            font-size: 80px;
+            text-align: center;
+        }
+        .affordable-dissertation-bn-and-number-box-right-right {
+            width: 100%;
+            display: flex;
         }
 }
