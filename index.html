@@ -642,42 +642,42 @@
                     <div class="wrapperes">
                         <div class="wrapperes-sub-box">
                             <div class="wrapperes-sub-box-left">
-                            <i class='bx bx-fork'></i>
+                                <i class='bx bx-fork'></i>
                             </div>
                             <div class="wrapperes-sub-box-right">
-                            <span class="nums" data-value="400">000</span>
-                            <span class="counter-text">Projet Delivered</span>
-                        </div>
-                        </div>
-                        <div class="wrapperes-sub-box">
-                            <div class="wrapperes-sub-box-left">
-                            <i class='bx bxs-wink-smile'></i>
-                        </div>
-                        <div class="wrapperes-sub-box-right">
-                            <span class="nums" data-value="300">000</span>
-                            <span class="counter-text">Happy Customer</span>
-                        </div> 
+                                <span class="nums" data-value="400">000</span>
+                                <span class="counter-text">Projet Delivered</span>
+                            </div>
                         </div>
                         <div class="wrapperes-sub-box">
                             <div class="wrapperes-sub-box-left">
-                            <i class='bx bx-list-ul' ></i>
-                        </div>
-                        <div class="wrapperes-sub-box-right">
-                            <span class="nums" data-value="200">000</span>
-                            <span class="counter-text">Service List</span>
-                        </div>
+                                <i class='bx bxs-wink-smile'></i>
+                            </div>
+                            <div class="wrapperes-sub-box-right">
+                                <span class="nums" data-value="300">000</span>
+                                <span class="counter-text">Happy Customer</span>
+                            </div>
                         </div>
                         <div class="wrapperes-sub-box">
                             <div class="wrapperes-sub-box-left">
-                            <i class='bx bxs-star' ></i>
+                                <i class='bx bx-list-ul'></i>
+                            </div>
+                            <div class="wrapperes-sub-box-right">
+                                <span class="nums" data-value="200">000</span>
+                                <span class="counter-text">Service List</span>
+                            </div>
                         </div>
-                        <div class="wrapperes-sub-box-right">
-                            <span class="nums" data-value="100">000</span>
-                            <span class="counter-text">Reviews</span>
-                        </div>
+                        <div class="wrapperes-sub-box">
+                            <div class="wrapperes-sub-box-left">
+                                <i class='bx bxs-star'></i>
+                            </div>
+                            <div class="wrapperes-sub-box-right">
+                                <span class="nums" data-value="100">000</span>
+                                <span class="counter-text">Reviews</span>
+                            </div>
                         </div>
                     </div>
-                
+
                 </div>
             </section>
         </section>
@@ -914,6 +914,9 @@
                 </div>
             </section>
         </section>
+        <div class="whatsapp-icon-circle">
+         <a href="#">   <i class='bx bxl-whatsapp'></i></a>
+        </div>
     </main>
     <footer>
         <section id="footer" class="containers">
@@ -1011,11 +1014,10 @@
                 </div>
             </section>
         </section>
+      
     </footer>
-   <script src="price-calculate.js"></script>
-   <script src="counter.js"></script>
-
-
+    <script src="price-calculate.js"></script>
+    <script src="counter.js"></script>
     <!-- TESTIMONIAL JAVASCRIPT -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>
@@ -1033,26 +1035,25 @@
             }
         });
     </script>
-   <!-- TESTIMONIAL JAVASCRIPT -->
-   
-   <!-- Write JAVASCRIPT  -->
-   <script>
-       let slides = document.querySelectorAll('.slide-container')
-       let index = 0;
-       
-       function next() {
-           slides[index].classList.remove('activess');
-           index = (index + 1) % slides.length;
-           slides[index].classList.add('activess');
+    <!-- TESTIMONIAL JAVASCRIPT -->
+    <!-- Write JAVASCRIPT  -->
+    <script>
+        let slides = document.querySelectorAll('.slide-container')
+        let index = 0;
+
+        function next() {
+            slides[index].classList.remove('activess');
+            index = (index + 1) % slides.length;
+            slides[index].classList.add('activess');
         }
         function prev() {
             slides[index].classList.remove('activess');
             index = (index - 1 + slides.length) % slides.length;
-           slides[index].classList.add('activess');
-       }
+            slides[index].classList.add('activess');
+        }
 
     </script>
-   <!-- Write JAVASCRIPT  --> 
+    <!-- Write JAVASCRIPT  -->
 
 </body>
 

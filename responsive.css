@@ -290,17 +290,18 @@
     }
     .pricing-main-box-sub-box {
         width: 100%;
-        border-radius: 50px;
+        border-radius: 0px;
         box-shadow: 4px 4px 10px black;
         background: white;
-        display: flex;
+        /* display: flex; */
         overflow: hidden;
         margin-left: -0px;
         padding-top: 15px;
         padding-bottom: 15px;
-        flex-wrap: wrap;
-        justify-content: center;
+        /* flex-wrap: wrap; */
+        /* justify-content: center; */
         gap: 20px;
+        overflow-x: scroll !important;
     }
     .border-right {
         border-right: none;
@@ -411,7 +412,7 @@
     }
     .faq-main-box-sub-box-left {
         width: 100%;
-        background-image: url(Image/faq-image/faq-images.png);
+        background-image: url("Image/faq-image/faq-images.png");
         background-position: center center;
         background: white;
         background-repeat: no-repeat;
@@ -656,53 +657,40 @@
             bottom: 70px;
             display: none;
         }
-}
-@media (max-width:425px) {
-    .deadline {
-        width: 100%;
-        /* border: 2px solid olivedrab; */
-    }
-    .pricing-main-box-sub-box {
-        width: 100%;
-        border-radius: 20px;
-        box-shadow: 4px 4px 10px black;
-        background: white;
-        display: flex;
-        overflow: hidden;
-        margin-left: -0px;
-        padding-top: 15px;
-        padding-bottom: 15px;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 20px;
-        padding-top: 0px !important;
-        padding-bottom: 0px !important;
-    }
-    .deadline-heading {
-        color: white;
-        font-size: 30px;
-        margin-bottom: 20px;
-        border-bottom: 2px solid white;
-        padding-bottom: 10px;
-        text-align: center;
-        margin-top: 20px;
-    }
-    .deadline {
-        width: 100%;
-        background: linear-gradient(#22c47b, #17975a);
-    }
-    span.price {
-        display: block;
-        margin-bottom: 10px;
-        font-size: 14px;
-        padding-left: 20px;
-        border-bottom: 1px solid rgb(255, 255, 255);
-        padding-bottom: 12px;
-        text-align: center;
-        color: white;
-    }
-    main{
-        overflow: hidden;
-    }
- 
+        .price {
+            width: 200px;
+        }
+        .price-heading {
+            color: black;
+            border-bottom: 2px solid rgb(0, 0, 0);
+            display: block;
+            text-align: center;
+            width: 200px;
+        }
+        .days {
+            display: block;
+            font-size: 14px;
+            margin-bottom: 10px;
+            color: #000000;
+            border-bottom: 1px solid #000000;
+            padding-bottom: 12px;
+            text-align: center;
+        }
+        .Only-show-mobile {
+            background: none !important;
+            display: block;
+        }
+        .hero-main-box-right-sub-box {
+            width: 350px;
+            /* border: 2px solid orangered; */
+            /* background: #262525; */
+            padding: 20px 10px;
+            border-radius: 15px;
+            /* opacity: 79%; */
+            background-image: url("Image/hero-section-image/calculator-bg.png");
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin-left: 0px !important;
+        }
 }

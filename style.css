@@ -2172,7 +2172,7 @@ span.price {
 }
 
 .wrapperes {
-    position:relative;
+    position: relative;
     width: 100%;
     display: flex;
     gap: 20px;
@@ -2211,14 +2211,16 @@ span.price {
     font-weight: 200 !important;
     font-size: 19px;
 }
-.wrapperes-sub-box-left{
+
+.wrapperes-sub-box-left {
     width: 30%;
     /* border: 2px solid orangered; */
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.wrapperes-sub-box-right{
+
+.wrapperes-sub-box-right {
     width: 70%;
     /* border: 2px solid orangered; */
     display: flex;
@@ -2226,6 +2228,7 @@ span.price {
     align-items: start;
     flex-direction: column;
 }
+
 @media screen and (max-width:990px) {
     .wrapperes {
         flex-wrap: wrap;
@@ -2253,6 +2256,27 @@ span.price {
         margin-bottom: 10px;
     }
 }
+
 .about-us-image.services-page-about {
     width: 674px;
+}
+
+.whatsapp-icon-circle {
+    width: 70px;
+    height: 70px;
+    background: linear-gradient(#22c47b, #17975a);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    z-index: 1000;
+    cursor: pointer;
+}
+
+.whatsapp-icon-circle i {
+    font-size: 50px;
+    color: white;
 }
