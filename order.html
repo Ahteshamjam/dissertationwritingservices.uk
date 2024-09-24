@@ -266,7 +266,7 @@ window.onload = function() {
             <section class="inner-section">
                 <div class="order-form-main-box">
                     <div class="order-form-main-box-left">
-                        <form action="">
+                        <form action="process_order2.php" method="post" enctype="multipart/form-data">
                             <div class="order-form-main-box-left-sub-box">
                                 <div class="form-text-box">
                                     <span class="Paper-type">Paper Type</span>
@@ -535,7 +535,7 @@ window.onload = function() {
                                     <span class="Paper-type">Name</span>
                                 </div>
                                 <div class="form-input-box">
-                                    <input type="text" placeholder="Enter Your Name" required>
+                                    <input type="text" name="name" id="name" placeholder="Enter Your Name" required>
                                 </div>
                             </div>
 
@@ -544,7 +544,7 @@ window.onload = function() {
                                     <span class="Paper-type">Contact Number</span>
                                 </div>
                                 <div class="form-input-box">
-                                    <input type="number" placeholder="Enter Your Phone Number" required>
+                                    <input type="number" name="phone" id="phone" placeholder="Enter Your Contact" required>
                                 </div>
                             </div>
 
@@ -553,7 +553,7 @@ window.onload = function() {
                                     <span class="Paper-type">Email</span>
                                 </div>
                                 <div class="form-input-box">
-                                    <input type="email" placeholder="Enter Your Email" required>
+                                    <input type="email" name="email" id="email" placeholder="Enter Your Email" required>
                                 </div>
                             </div>
 
@@ -562,7 +562,7 @@ window.onload = function() {
                                     <span class="Paper-type">Whatsapp Number</span>
                                 </div>
                                 <div class="form-input-box">
-                                    <input type="number" placeholder="Enter Your Whatsapp Number" required>
+                                    <input type="number" name="phone" id="phone" placeholder="Enter Your Contact" required>
                                 </div>
                             </div>
 
@@ -572,7 +572,7 @@ window.onload = function() {
                                         instructions</span>
                                 </div>
                                 <div class="form-input-box">
-                                    <textarea name="" id="text-area" class="text-area" placeholder="Type Your Massage"
+                                    <textarea name="message" id="message" class="text-area" placeholder="Type Your Massage"
                                         required></textarea>
                                 </div>
                             </div>
@@ -593,7 +593,7 @@ window.onload = function() {
                                                 href="terms-and-condition.html"> Terms and Conditions </a></label>
                                     </div>
                                     <div class="confirm-btn-box">
-                                        <button class="confirm-btn order-done-btn">Submit Now</button>
+                                        <button class="confirm-btn order-done-btn" type="submit" type="submit" name="submit">Submit Now</button>
                                     </div>
                                 </div>
                             </div>
@@ -617,7 +617,7 @@ window.onload = function() {
                             <span class="total-heading">Total</span>
                             <span class="total-price" id="total_price">0.00</span>
                         </div>
-                        <img src="Image/Order page/payment.png" alt="Payment Icon" class="payment-icon">
+                        <img src="Image/Order page/payment-icons.jpg" alt="Payment Icon" class="payment-icon">
                         <img src="Image/Order page/secure-payment 1.png" alt="Secure Payment" class="Secure-Payment">
                     </div>
                 </div>
@@ -635,7 +635,7 @@ window.onload = function() {
                         <img src="Image/logo/header-logo.webp" alt="footer Logo" class="footer-logo">
                         <p class="footer-main-box-sub-box-description">Lorem Ipsum is simply dummy text of the printing
                             and typesetting industry text of the printing and typesetting industry.</p>
-                        <img src="Image/payment-icon/payment-icon.png" alt="Payment-icon" class="payment-icon">
+                        <img src="Image/payment-icon/payment-icons.jpg" alt="Payment-icon" class="payment-icon">
 
                         <div class="social-media-icon">
                             <div class="facebook-icon-box">
@@ -723,6 +723,7 @@ window.onload = function() {
                 </div>
             </section>
         </section>
+      
     </footer>
 
 

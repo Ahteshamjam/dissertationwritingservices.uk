@@ -82,7 +82,8 @@
                     <nav>
                         <input type="checkbox" id="check">
                         <label for="check" class="checkbox"><i class='bx bx-menu-alt-right'></i></label>
-                        <span><a href="/"><img src="Image/logo/header-logo.webp" alt="Header Logo" class="header-logo"></a></span>
+                        <span><a href="/"><img src="Image/logo/header-logo.webp" alt="Header Logo"
+                                    class="header-logo"></a></span>
                         <ul>
                             <li class="active"> <a href="index.html"><img src="Image/navigation Icon/home.png"
                                         alt="home icon">Home</a></li>
@@ -151,16 +152,91 @@
                         <div class="hero-main-box-right-sub-box">
                             <h2 class="calculator-price-heading">Get Pricing Quote</h2>
 
-                            <select id="paper_type" name="paper_type">
+                            <select id="paper_topic" name="paper_topic">
                                 <option value="Essay" selected="selected">Essay</option>
-                                <option value="Termpaper" name="Termpaper">Term paper</option>
-                                <option value="Researchpaper" name="Researchpaper">Research paper</option>
-                                <option value="CourseWork" name="CourseWork">Course Work</option>
-                                <option value="Thesis" name="Thesis">Thesis</option>
-                                <option value="ThesisProposal" name="ThesisProposal">Thesis Proposal</option>
-                                <option value="Assignment" name="Assignment">Assignment</option>
-                                <option value="ExpositionWriting" name="ExpositionWriting">Exposition Writing
+                                <option value="Term paper">Term paper</option>
+                                <option value="Research paper">Research paper</option>
+                                <option value="Course Work">Course Work</option>
+                                <option value="Thesis">Thesis</option>
+                                <option value="Thesis Proposal">Thesis Proposal</option>
+                                <option value="Assignment">Assignment</option>
+                                <option value="Exposition Writing">Exposition Writing</option>
+                                <option value="Critical analysis">Critical analysis</option>
+                                <option value="Reflection paper">Reflection paper</option>
+                                <option value="Reflective Essay">Reflective Essay</option>
+                                <option value="Analytical Essay">Analytical Essay</option>
+                                <option value="Brief Overview">Brief Overview</option>
+                                <option value="Response Essay">Response Essay</option>
+                                <option value="Response paper">Response paper</option>
+                                <option value="Argumentative Essay">Argumentative Essay</option>
+                                <option value="Contrast Essay">Contrast Essay</option>
+                                <option value="Research Essay">Research Essay</option>
+                                <option value="Literature Review">Literature Review</option>
+                                <option value="Dissertation">Dissertation</option>
+                                <option value="Dissertation Chapter - Abstract">Dissertation Chapter -
+                                    Abstract
                                 </option>
+                                <option value="Dissertation Chapter - Introduction">Dissertation Chapter -
+                                    Introduction Chapter</option>
+                                <option value="Dissertation Chapter - Literature Review">Dissertation
+                                    Chapter -
+                                    Literature Review</option>
+                                <option value="Dissertation Chapter - Methodology">Dissertation Chapter -
+                                    Methodology</option>
+                                <option value="Dissertation Chapter - Result">Dissertation Chapter - Result
+                                </option>
+                                <option value="Dissertation Chapter - Discussion">Dissertation Chapter -
+                                    Discussion
+                                </option>
+                                <option value="Capstone Project">Capstone Project</option>
+                                <option value="Dissertation Chapter">Dissertation Chapter</option>
+                                <option value="Reflective Writing">Reflective Writing</option>
+                                <option value="Report">Report</option>
+                                <option value="Proofreading">Proofreading</option>
+                                <option value="Lab Report">Lab Report</option>
+                                <option value="PowerPoint Presentation">PowerPoint Presentation</option>
+                                <option value="Reaction Paper">Reaction Paper</option>
+                                <option value="Rewriting">Rewriting</option>
+                                <option value="Press Release">Press Release</option>
+                                <option value="Statement of Purpose">Statement of Purpose</option>
+                                <option value="Letter of Recommendation">Letter of Recommendation</option>
+                                <option value="Project">Project</option>
+                                <option value="Book Report">Book Report</option>
+                                <option value="Book Review">Book Review</option>
+                                <option value="Movie Review">Movie Review</option>
+                                <option value="Research Proposal">Research Proposal</option>
+                                <option value="Case Study">Case Study</option>
+                                <option value="Article">Article</option>
+                                <option value="Article Critique">Article Critique</option>
+                                <option value="Annotated Bibliography">Annotated Bibliography</option>
+                                <option value="Speech / Presentation">Speech / Presentation</option>
+                                <option value="Power Point Presentation (without speaker notes)">Power Point
+                                    Presentation (without speaker notes)</option>
+                                <option value="Power Point Presentation (with speaker notes)">Power Point
+                                    Presentation (with speaker notes)</option>
+                                <option value="Admission Essays">Admission Essays</option>
+                                <option value="Admission Services - Editing">Admission Services - Editing
+                                </option>
+                                <option value="Scholarship Essay">Scholarship Essay</option>
+                                <option value="Personal Statement">Personal Statement</option>
+                                <option value="News Release">News Release</option>
+                                <option value="Biography">Biography</option>
+                                <option value="Business Plan">Business Plan</option>
+                                <option value="EBooks">EBooks</option>
+                                <option value="Editing">Editing</option>
+                                <option value="Formatting">Formatting</option>
+                                <option value="Quiz">Quiz</option>
+                                <option value="Multiple Choice Questions (Non Time Framed)">Multiple Choice
+                                    Questions (Non Time Framed)</option>
+                                <option value="Multiple Choice Questions (Time Framed)">Multiple Choice
+                                    Questions
+                                    (Time Framed)</option>
+                                <option value="Math Problem">Math Problem</option>
+                                <option value="Paraphrasing">Paraphrasing</option>
+                                <option value="Resume">Resume</option>
+                                <option value="Cover Letter">Cover Letter</option>
+                                <option value="Poster">Poster</option>
+                                <option value="Other">Other</option>
                             </select>
                             <select id="deadline" name="deadline" onchange="updateTotalPrice()">
                                 <option value="15 Days +" data-deadline="dd1" selected="selected">15 Days +</option>
@@ -177,8 +253,8 @@
                                 <option value="6 Hours" data-deadline="dd12">6 Hours</option>
                             </select>
                             <select id="level" name="level" onchange="updateTotalPrice()">
-                                <option value="High School">High School</option>
-                                <option value="College / Undergraduate">College/Undergraduate</option>
+                                <option value="School">High School</option>
+                                <option value="College/Undergraduate">College/Undergraduate</option>
                                 <option value="University">University</option>
                                 <option value="Masters">Master's</option>
                                 <option value="PhD">Mphil / Ph.D</option>
@@ -200,6 +276,112 @@
                                 <option value="13" data-page="13">13 Pages / 3250 Words</option>
                                 <option value="14" data-page="14">14 Pages / 3500 Words</option>
                                 <option value="15" data-page="15">15 Pages / 3750 Words</option>
+                                <option value="16" data-page="16">16 Pages / 4000 Words</option>
+                                <option value="17" data-page="17">17 Pages / 4250 Words</option>
+                                <option value="18" data-page="18">18 Pages / 4500 Words</option>
+                                <option value="19" data-page="19">19 Pages / 4750 Words</option>
+                                <option value="20" data-page="20">20 Pages / 5000 Words</option>
+                                <option value="21" data-page="21">21 Pages / 5250 Words</option>
+                                <option value="22" data-page="22">22 Pages / 5500 Words</option>
+                                <option value="23" data-page="23">23 Pages / 5750 Words</option>
+                                <option value="24" data-page="24">24 Pages / 6000 Words</option>
+                                <option value="25" data-page="25">25 Pages / 6250 Words</option>
+                                <option value="26" data-page="26">26 Pages / 6500 Words</option>
+                                <option value="27" data-page="27">27 Pages / 6750 Words</option>
+                                <option value="28" data-page="28">28 Pages / 7000 Words</option>
+                                <option value="29" data-page="29">29 Pages / 7250 Words</option>
+                                <option value="30" data-page="30">30 Pages / 7500 Words</option>
+                                <option value="31" data-page="31">31 Pages / 7750 Words</option>
+                                <option value="32" data-page="32">32 Pages / 8000 Words</option>
+                                <option value="33" data-page="33">33 Pages / 8250 Words</option>
+                                <option value="34" data-page="34">34 Pages / 8500 Words</option>
+                                <option value="35" data-page="35">35 Pages / 8750 Words</option>
+                                <option value="36" data-page="36">36 Pages / 9000 Words</option>
+                                <option value="37" data-page="37">37 Pages / 9250 Words</option>
+                                <option value="38" data-page="38">38 Pages / 9500 Words</option>
+                                <option value="39" data-page="39">39 Pages / 9750 Words</option>
+                                <option value="40" data-page="40">40 Pages / 10000 Words
+                                </option>
+                                <option value="41" data-page="41">41 Pages / 10250 Words
+                                </option>
+                                <option value="42" data-page="42">42 Pages / 10500 Words
+                                </option>
+                                <option value="43" data-page="43">43 Pages / 10750 Words
+                                </option>
+                                <option value="44" data-page="44">44 Pages / 11000 Words
+                                </option>
+                                <option value="45" data-page="45">45 Pages / 11250 Words
+                                </option>
+                                <option value="46" data-page="46">46 Pages / 11500 Words
+                                </option>
+                                <option value="47" data-page="47">47 Pages / 11750 Words
+                                </option>
+                                <option value="48" data-page="48">48 Pages / 12000 Words
+                                </option>
+                                <option value="49" data-page="49">49 Pages / 12250 Words
+                                </option>
+                                <option value="50" data-page="50">50 Pages / 12500 Words
+                                </option>
+                                <option value="51" data-page="51">51 Pages / 12750 Words
+                                </option>
+                                <option value="52" data-page="52">52 Pages / 13000 Words
+                                </option>
+                                <option value="53" data-page="53">53 Pages / 13250 Words
+                                </option>
+                                <option value="54" data-page="54">54 Pages / 13500 Words
+                                </option>
+                                <option value="55" data-page="55">55 Pages / 13750 Words
+                                </option>
+                                <option value="56" data-page="56">56 Pages / 14000 Words
+                                </option>
+                                <option value="57" data-page="57">57 Pages / 14250 Words
+                                </option>
+                                <option value="58" data-page="58">58 Pages / 14500 Words
+                                </option>
+                                <option value="59" data-page="59">59 Pages / 14750 Words
+                                </option>
+                                <option value="60" data-page="60">60 Pages / 15000 Words
+                                </option>
+                                <option value="61" data-page="61">61 Pages / 15250 Words
+                                </option>
+                                <option value="62" data-page="62">62 Pages / 15500 Words
+                                </option>
+                                <option value="63" data-page="63">63 Pages / 15750 Words
+                                </option>
+                                <option value="64" data-page="64">64 Pages / 16000 Words
+                                </option>
+                                <option value="65" data-page="65">65 Pages / 16250 Words
+                                </option>
+                                <option value="66" data-page="66">66 Pages / 16500 Words
+                                </option>
+                                <option value="67" data-page="67">67 Pages / 16750 Words
+                                </option>
+                                <option value="68" data-page="68">68 Pages / 17000 Words
+                                </option>
+                                <option value="69" data-page="69">69 Pages / 17250 Words
+                                </option>
+                                <option value="70" data-page="70">70 Pages / 17500 Words
+                                </option>
+                                <option value="71" data-page="71">71 Pages / 17750 Words
+                                </option>
+                                <option value="72" data-page="72">72 Pages / 18000 Words
+                                </option>
+                                <option value="73" data-page="73">73 Pages / 18250 Words
+                                </option>
+                                <option value="74" data-page="74">74 Pages / 18500 Words
+                                </option>
+                                <option value="75" data-page="75">75 Pages / 18750 Words
+                                </option>
+                                <option value="76" data-page="76">76 Pages / 19000 Words
+                                </option>
+                                <option value="77" data-page="77">77 Pages / 19250 Words
+                                </option>
+                                <option value="78" data-page="78">78 Pages / 19500 Words
+                                </option>
+                                <option value="79" data-page="79">79 Pages / 19750 Words
+                                </option>
+                                <option value="80" data-page="80">80 Pages / 20000 Words
+                                </option>
                             </select>
                             <div class="hero-order-box">
                                 <button class="order-done-btn">Submit Now</button>
@@ -267,7 +449,7 @@
         <section id="about-us" class="containers">
             <section class="inner-section">
                 <div class="about-us-main-box">
-                    <div class="about-us-main-box-left"><img src="Image/Services-Page/Untitled-2 1.png"
+                    <div class="about-us-main-box-left"><img src="Image/Services-Page/service-page-image.png"
                             alt="About Us Image" class="about-us-image services-page-about"></div>
                     <div class="about-us-main-box-right">
                         <h2 class="about-main-heading">About Us</h2>
@@ -697,8 +879,8 @@
             </section>
         </section>
         <div class="whatsapp-icon-circle">
-            <a href="#">   <i class='bx bxl-whatsapp'></i></a>
-           </div>
+            <a href="#"> <i class='bx bxl-whatsapp'></i></a>
+        </div>
     </main>
     <footer>
         <section id="footer" class="containers">
@@ -708,7 +890,7 @@
                         <img src="Image/logo/header-logo.webp" alt="footer Logo" class="footer-logo">
                         <p class="footer-main-box-sub-box-description">Lorem Ipsum is simply dummy text of the printing
                             and typesetting industry text of the printing and typesetting industry.</p>
-                        <img src="Image/payment-icon/payment-icon.png" alt="Payment-icon" class="payment-icon">
+                        <img src="Image/payment-icon/payment-icons.jpg" alt="Payment-icon" class="payment-icon">
 
                         <div class="social-media-icon">
                             <div class="facebook-icon-box">
@@ -796,6 +978,7 @@
                 </div>
             </section>
         </section>
+      
     </footer>
     <script src="price-calculate.js"></script>
     <script src="counter.js"></script>
