@@ -757,4 +757,18 @@
             box-shadow: 3px 3px 10px gray;
             border-radius: 10px !important;
         }
-}
+        nav.navbar.navbar-expand-lg.bg-body-tertiary {
+            width: 100%;
+            position: fixed;
+            top: 0px;
+            left: 0px;
+            box-shadow: 4px 4px 10px gray;
+            display: block !important;
+        }
+        .mobile-display-none{
+            display: none !important;
+        }
+        .nav-link{
+            display: block !important;
+        }
+    }

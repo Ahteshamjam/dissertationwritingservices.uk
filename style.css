@@ -2282,3 +2282,6 @@ span.price {
     font-size: 50px;
     color: white;
 }
+.navbar{
+    display: none !important; 
+}
