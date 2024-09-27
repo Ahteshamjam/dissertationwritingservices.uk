@@ -79,42 +79,8 @@
         <section id="navigation-bar" class="containers">
             <section class="inner-section">
                 <div class="navigation-bar-main-box">
-                    <nav>
-                        <input type="checkbox" id="check">
-                        <label for="check" class="checkbox"><i class='bx bx-menu-alt-right'></i></label>
-                        <span><a href="/"><img src="Image/logo/header-logo.webp" alt="Header Logo"
-                                    class="header-logo"></a></span>
-                        <ul>
-                            <li class="active"> <a href="index.html"><img src="Image/navigation Icon/home.png"
-                                        alt="home icon">Home</a></li>
-                            <li class="hover-effect"><img src="Image/navigation Icon/about 1.png" alt="About"
-                                    class="about"> <a href="about.html" class="hover-effect-style">About</a></li>
-                            <li class="hover-effect"><img src="Image/navigation Icon/technical-support 1.png"
-                                    alt="Services" class="services-icon"> <a href="#"
-                                    class="hover-effect-style">Services</a>
-                                <ul class="dropdown">
-                                    <li class="drop-down-nav"><a href="childcare-assignment.html">Childcare
-                                            Assignment</a></li>
-                                    <li class="drop-down-nav"><a href="#">CIPD Assignment</a></li>
-                                    <li class="drop-down-nav"><a href="#">Do My Assignment</a></li>
-                                    <li class="drop-down-nav"><a href="#">Essay Writing Service</a></li>
-                                    <li class="drop-down-nav"><a href="#">HND Assignment</a></li>
-                                    <li class="drop-down-nav"><a href="#">Nursing Assignment</a></li>
-                                    <li class="drop-down-nav"><a href="#">Write My Assignment</a></li>
-                                    <li class="drop-down-nav"><a href="#">Write My Essay</a></li>
-                                </ul>
-                            </li>
-                            <li class="hover-effect"><img src="Image/navigation Icon/best-price 1.png" alt="Pricing"
-                                    class="Pricing-icon"> <a href="pricing.html" class="hover-effect-style">Pricing</a>
-                            </li>
-                            <li class="hover-effect"><img src="Image/navigation Icon/discuss 1.png" alt="Discus"
-                                    class="discus-icon"> <a href="#writer" class="hover-effect-style">Reviews</a></li>
-                        </ul>
-                        <div class="header-btn-box">
-                            <a href="#"><button class="live-chat">Live Chat</button></a>
-                            <a href="order.html"><button class="live-chat order-now">Order Now</button></a>
-                        </div>
-                    </nav>
+                <?php include 'header.php';?>
+                   
                 </div>
             </section>
         </section>
