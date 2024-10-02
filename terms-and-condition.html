@@ -4,8 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Terms And Conditions</title>
-
+    <title>Dissertation Writing UK</title>
+    <!-- Meta Title  -->
+    <meta name="title" content="Dissertation Writing UK ">
+    <!-- Meta Description  -->
+    <meta name="description" content="META DESCRIPTION ">
     <!-- CUSTOM CSS LINK  -->
     <link rel="stylesheet" href="style.css">
     <!-- CUSTOM RESPONSIVE CSS LINK  -->
@@ -18,10 +21,18 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
-
     <!-- Swiper CSS -->
     <link rel="stylesheet" href="swiper-bundle.min.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- Font fontawesome Link  -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <!-- CDN CloudFlare External Link  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
 </head>
 
 <body>
@@ -29,41 +40,57 @@
         <section id="navigation-bar" class="containers">
             <section class="inner-section">
                 <div class="navigation-bar-main-box">
-                    <nav>
-                        <input type="checkbox" id="check">
-                        <label for="check" class="checkbox"><i class='bx bx-menu-alt-right'></i></label>
-                        <span><a href="/"><img src="Image/logo/header-logo.webp" alt="Header Logo" class="header-logo"></a></span>
-                        <ul>
-                            <li class="active"> <a href="index.html"><img src="Image/navigation Icon/home.png"
-                                        alt="home icon">Home</a></li>
-                            <li class="hover-effect"><img src="Image/navigation Icon/about 1.png" alt="About"
-                                    class="about"> <a href="about.html" class="hover-effect-style">About</a></li>
-                            <li class="hover-effect"><img src="Image/navigation Icon/technical-support 1.png"
-                                    alt="Services" class="services-icon"> <a href="#"
-                                    class="hover-effect-style">Services</a>
-                                <ul class="dropdown">
-                                    <li class="drop-down-nav"><a href="childcare-assignment.html">Childcare
-                                            Assignment</a></li>
-                                    <li class="drop-down-nav"><a href="#">CIPD Assignment</a></li>
-                                    <li class="drop-down-nav"><a href="#">Do My Assignment</a></li>
-                                    <li class="drop-down-nav"><a href="#">Essay Writing Service</a></li>
-                                    <li class="drop-down-nav"><a href="#">HND Assignment</a></li>
-                                    <li class="drop-down-nav"><a href="#">Nursing Assignment</a></li>
-                                    <li class="drop-down-nav"><a href="#">Write My Assignment</a></li>
-                                    <li class="drop-down-nav"><a href="#">Write My Essay</a></li>
+                    <div class="wrapper">
+                        <nav>
+                            <input type="checkbox" id="show-search">
+                            <input type="checkbox" id="show-menu">
+                            <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+                            <div class="content">
+                                <div class="logo"><a href="#"><img src="Image/logo/header-logo.webp" alt="Header Logo"
+                                            class="header-logo"></a></div>
+                                <ul class="links">
+                                    <li class="active "><img src="Image/navigation Icon/home.png" alt="home Icon"
+                                            class="home-icon"><a href="index.html">Home</a></li>
+                                    <li class="hover-effect"><img src="Image/navigation Icon/about 1.png"
+                                            alt="About Icon" class="about-icon"><a href="about.html">About</a></li>
+                                    <li class="hover-effect style-none"><img
+                                            src="Image/navigation Icon/technical-support 1.png" alt="Service Icon"
+                                            class="service-icon">
+                                        <a href="#" class="desktop-link">Service</a>
+                                        <input type="checkbox" id="show-features">
+                                        <label for="show-features" class="service-color">Service</label>
+                                        <ul class="extra-style-navigation">
+                                            <li class="margin-right adjust-font-size"><a
+                                                    href="childcare-assignment.html">Childcare Assignment</a></li>
+                                            <li class="margin-right adjust-margin-top-dropdowns"><a href="#">CIPD
+                                                    Assignment</a></li>
+                                            <li class="margin-right adjust-margin-top-dropdowns"><a href="#">Do My
+                                                    Assignment</a></li>
+                                            <li class="margin-right adjust-margin-top-dropdowns"><a href="#">Essay
+                                                    Writing
+                                                    Service</a></li>
+                                            <li class="margin-right adjust-margin-top-dropdowns"><a href="#">HND
+                                                    Assignment</a></li>
+                                            <li class="margin-right adjust-margin-top-dropdowns"><a href="#">Nursing
+                                                    Assignment</a></li>
+                                            <li class="margin-right adjust-margin-top-dropdowns"><a href="#">Write My
+                                                    Assignment</a></li>
+                                            <li class="margin-right adjust-margin-top-dropdowns"><a href="#">Write My
+                                                    Essay</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="hover-effect"><img src="Image/navigation Icon/best-price 1.png"
+                                            alt="Price Icon" class="price-icon"><a href="pricing.html">Pricing</a></li>
+                                    <li class="margin-right hover-effect"><img src="Image/navigation Icon/discuss 1.png"
+                                            alt="Reviews Icon" class="reviews-icon"><a href="#writer">Reviews</a></li>
                                 </ul>
-                            </li>
-                            <li class="hover-effect"><img src="Image/navigation Icon/best-price 1.png" alt="Pricing"
-                                    class="Pricing-icon"> <a href="pricing.html" class="hover-effect-style">Pricing</a>
-                            </li>
-                            <li class="hover-effect"><img src="Image/navigation Icon/discuss 1.png" alt="Discus"
-                                    class="discus-icon"> <a href="#writer" class="hover-effect-style">Reviews</a></li>
-                        </ul>
-                        <div class="header-btn-box">
-                            <a href="#"><button class="live-chat">Live Chat</button></a>
-                            <a href="order.html"><button class="live-chat order-now">Order Now</button></a>
-                        </div>
-                    </nav>
+                            </div>
+                            <div class="navigation-button">
+                                <a href="#"> <input type="submit" value="Live Chat" class="header-btn"></a>
+                                <a href="order.html"> <input type="submit" value="order Now" class="header-btn"></a>
+                            </div>
+                        </nav>
+                    </div>
                 </div>
             </section>
         </section>
